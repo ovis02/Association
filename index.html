@@ -6,6 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <img
+        class="navbar-brand"
+        id="logo-image"
+        src="eaupotable.jpg"
+        alt="logo"
+      />
+
+      <h1 class="titre">L'eau potable pour tous</h1>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Donation</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="formulaire.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="article1">
+        <section>
+          <img class="image2" src="eaupotable2.jpg" alt="" />
+          <h2>L'accès à l'eau potable une opportunité pour tous...</h2>
+          <p>
+            Le but de notre association est d'aider les enfants defavorisés en
+            leur offrant un accès à l'eau potable grâce à la fabrication de
+            puits. Nous sommes conscients que l'accès à l'eau est un enjeu
+            majeur dans de nombreuses régions du monde et que les enfants sont
+            particulièrement vulnérables à la pauvreté et aux maladies liées à
+            l'eau insalubre.
+          </p>
+        </section>
+      </div>
+      <div class="article2">
+        <section>
+          <img class="image3" src="eaupotable3.jpg" alt="" />
+          <h2>Votre aide est pécieuse...</h2>
+          <p>
+            Nous avons besoin de votre aide pour fournir de l'eau potable aux
+            communautés pauvres et isolées dans les pays en développement. En
+            travaillant avec des experts locaux, nous avons mis en place un
+            projet visant à construire des puits pour permettre aux populations
+            locales d'accéder à une eau propre et saine. Le coût de chaque puits
+            varie en fonction de plusieurs facteurs, tels que le type de sol, la
+            profondeur du puits et les matériaux nécessaires. Pour que notre
+            projet réussisse, nous devons collecter des fonds pour financer la
+            construction de chaque puits. Nous avons créé une cagnotte en ligne
+            pour faciliter les dons. Votre contribution nous permettra de
+            fournir aux communautés locales un accès permanent à l'eau potable,
+            améliorant ainsi leur qualité de vie, leur santé et leur bien-être.
+            Chaque don, quel que soit son montant, compte
+          </p>
+        </section>
+      </div>
+      <div class="container2">
+        <div class="article3">
+          <section>
+            <h2>Faire un don...</h2>
+            <p>
+              Pour faire un don à notre cagnotte en ligne, veuillez cliquer sur
+              le lien ci-dessous :
+            </p>
+            <div class="donate-container">
+              <form
+                class="donate-form"
+                action="traitement-don.php"
+                method="post"
+              >
+                <label for="montant">Montant du don :</label>
+                <input
+                  type="number"
+                  id="montant"
+                  name="montant"
+                  placeholder="€"
+                  required
+                />
+
+                <label for="nom">Nom :</label>
+                <input
+                  type="text"
+                  id="nom"
+                  name="nom"
+                  placeholder="Nom"
+                  required
+                />
+
+                <label for="email">Email :</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+
+                <label for="message">Message (optionnel) :</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Laissez un message"
+                ></textarea>
+
+                <button type="submit">Faire un don</button>
+              </form>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Droits d'auteur © 2023 Mon Site Web</p>
+    </footer>
+  </body>
 </html>

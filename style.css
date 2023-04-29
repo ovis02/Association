@@ -1,0 +1,72 @@
+.navbar {
+  background-color: darkgreen;
+  color: #fff;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.titre {
+  margin-top: 50px;
+  font-family: "Bruno Ace SC", cursive;
+}
+.navbar-brand {
+  color: #fff;
+  margin-right: 15px;
+}
+.nav-link {
+  color: #fff;
+}
+#logo-image {
+  height: 200px;
+  width: auto;
+
+  margin-right: 10px;
+}
+h2 {
+  color: darkgreen;
+}
+.image2 {
+  float: right;
+  height: 300px;
+  width: 400 px;
+  margin: 20px;
+}
+
+.image3 {
+  float: left;
+  height: 300px;
+  width: 400 px;
+
+  margin: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article1 {
+  margin: 100px;
+  border-left: 5px solid darkgreen;
+  border-top: 5px solid darkgreen;
+  padding: 20px;
+}
+
+.article2 {
+  margin: 100px;
+  border-right: 5px solid darkgreen;
+  border-bottom: 5px solid darkgreen;
+  padding: 20px;
+}
+
+.article3 {
+  border: 5px solid darkgreen;
+  margin: 100px;
+  padding: 20px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
