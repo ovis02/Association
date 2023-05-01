@@ -1,6 +1,7 @@
+/* Navbar */
 .navbar {
   background-color: darkgreen;
-  color: #fff;
+
   font-weight: bold;
   font-size: xx-large;
 }
@@ -9,12 +10,17 @@
   font-family: "Bruno Ace SC", cursive;
 }
 .navbar-brand {
-  color: #fff;
   margin-right: 15px;
 }
+
+.navbar,
+.navbar-brand,
 .nav-link {
   color: #fff;
 }
+
+/* Images */
+
 #logo-image {
   height: 200px;
   width: auto;
@@ -22,46 +28,46 @@
   margin-right: 10px;
 }
 
-.image2 {
-  float: right;
+.image2,
+.image3 {
   height: 300px;
   width: 400 px;
   margin: 20px;
+}
+
+.image2 {
+  float: right;
 }
 
 .image3 {
   float: left;
-  height: 300px;
-  width: 400 px;
-
-  margin: 20px;
 }
+
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.article1 {
-  margin: 100px;
-  border-left: 5px solid darkgreen;
-  border-top: 5px solid darkgreen;
-  padding: 20px;
-}
-
-.article2 {
-  margin: 100px;
-  border-right: 5px solid darkgreen;
-  border-bottom: 5px solid darkgreen;
-  padding: 20px;
-}
-
+.article1,
+.article2,
 .article3 {
   border: 5px solid darkgreen;
   margin: 100px;
   padding: 20px;
 }
 
+.article1 {
+  border-left: none;
+  border-top: none;
+}
+
+.article2 {
+  border-right: none;
+  border-bottom: none;
+}
+
+/* Container don */
 .container2 {
   display: flex;
   justify-content: center;
