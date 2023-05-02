@@ -51,7 +51,8 @@
 
 .article1,
 .article2,
-.article3 {
+.article3,
+.article4 {
   border: 5px solid darkgreen;
   margin: 100px;
   padding: 20px;
@@ -125,8 +126,8 @@
 .donate-form button[type="submit"]:hover {
   background-color: #3e8e41;
 }
-/* adapted for smartphones max 767px */
-@media (max-width: 767px) {
+/* adapted for smartphones min 600px */
+@media (min-width: 600px) {
   .navbar {
     font-size: large;
   }
@@ -146,7 +147,55 @@
   }
   .article1,
   .article2,
-  .article3 {
+  .article3,
+  .article4 {
     margin: 50px 20px;
+  }
+}
+/*adapted mobile maximum width of 767px */
+@media screen and (max-width: 767px) {
+  .navbar {
+    background-color: darkgreen;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .titre {
+    margin-top: 50px;
+    font-family: "Bruno Ace SC", cursive;
+  }
+  .navbar-brand {
+    margin-right: 15px;
+  }
+  .navbar,
+  .navbar-brand,
+  .nav-link {
+    color: #fff;
+  }
+  #logo-image {
+    height: 100px;
+    width: auto;
+  }
+  .image2,
+  .image3 {
+    height: 200px;
+    width: 100%;
+    margin: 20px 0;
+    float: none;
+  }
+  .article1,
+  .article2,
+  .article3,
+  .article4 {
+    border: 5px solid darkgreen;
+    margin: 50px 20px;
+    padding: 20px;
+  }
+  .article1 {
+    border-left: none;
+    border-top: none;
+  }
+  .article2 {
+    border-right: none;
+    border-bottom: none;
   }
 }
