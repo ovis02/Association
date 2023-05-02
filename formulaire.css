@@ -35,7 +35,7 @@ label {
   border-color: darkgreen;
   font-weight: bold;
 }
-/*style adapted with max 767px*/
+/*mobile first < 767 px*/
 @media screen and (max-width: 767px) {
   form {
     max-width: 100%;

@@ -126,7 +126,7 @@
 .donate-form button[type="submit"]:hover {
   background-color: #3e8e41;
 }
-/* adapted for smartphones min 600px */
+/* mobile first  */
 @media (min-width: 600px) {
   .navbar {
     font-size: large;
